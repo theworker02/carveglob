@@ -1,0 +1,29 @@
+{
+  "name": "@theworker02/carveglob",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Carve identifiers and glob tokens for idempotent workflows.",
+  "bin": {
+    "carveglob": "src/cli.js"
+  },
+  "main": "./src/index.js",
+  "scripts": {
+    "test": "node --test"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/theworker02/carveglob.git"
+  },
+  "homepage": "https://theworker02.github.io/carveglob/",
+  "keywords": [
+    "carve",
+    "glob",
+    "id",
+    "cli",
+    "toolkit"
+  ]
+}
